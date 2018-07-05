@@ -41,16 +41,16 @@ margin-left: 5px;
 	cursor:pointer;
 }
 #myCarousel .list-group .active {
-	background-color:#aaa;	
+	background-color:#aaa;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	#myCarousel {padding-right:33.3333%;}
-	#myCarousel .carousel-controls {display:none;} 	
+	/*#myCarousel .carousel-controls {display:none;} */	
 }
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	.carousel-caption p,
-	#myCarousel .list-group {display:none;} 
+	#myCarousel .list-group {display:none;}
 }
 
 /* ==========================
@@ -241,31 +241,31 @@ margin-left: 5px;
  --- Parallax ---
 ============================= */
 
-#logos{	
+#logos{
 	background-image: url(../img/parallax/fond1.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-#mix{	
+#mix{
 	background-image: url(../img/parallax/fond2.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-#styletopo{	
+#styletopo{
 	background-image: url(../img/parallax/fond3.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-#style{	
+#style{
 	background-image: url(../img/parallax/fond4.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-#fond5{	
+#fond5{
 	background-image: url(../img/parallax/fond5.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -275,31 +275,31 @@ margin-left: 5px;
 		padding-top: 30px;
 		padding-bottom: 30px;
  }
- 
+
  .img_logo_center { 	width: 100%;
 		padding-top: 30px;
 		padding-bottom: 30px;
 		text-align: center;
  }
 
-#logo-xs{	
+#logo-xs{
 	width: 10%;
 	padding-top: 0px;
 	padding-bottom: 0px;
-} 
+}
 
-#logo-main{	
+#logo-main{
 	width: 100%;
 	padding-top: 0px;
 	padding-bottom: 10px;
 }
 
-#logo-ANR-funded{	
+#logo-ANR-funded{
 	width: 100%;
 	padding-top: 0px;
 	padding-bottom: 10px;
-} 
- 
+}
+
 /* ---- padding ---- */
 /* top */
 .pad-top0 {
@@ -665,7 +665,7 @@ a.scrollup:hover{
 .social-network a.icoLinkedin:hover {
 	background-color:#007bb7;
 }
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoSlideshare:hover i,.social-network a.icoTwitter:hover i, 
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoSlideshare:hover i,.social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i,.social-network a.icoDailymotion:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
 	color:#fff;
 }
@@ -794,7 +794,7 @@ nav#filter a {
 }
 
 
-.portfolio-items article img {width:100%;} 
+.portfolio-items article img {width:100%;}
 
 .portfolio-item {
 	display: block;
@@ -872,12 +872,12 @@ margin-bottom: 0px;
 overflow: hidden;
 }
 
-.flex-video.widescreen { 
-	padding-bottom: 100%; 
-	padding-left: -40px; 
+.flex-video.widescreen {
+	padding-bottom: 100%;
+	padding-left: -40px;
 }
 .flex-video.vimeo { padding-top: 0; }
- 
+
 .flex-video iframe,
 .flex-video object,
 .flex-video embed {
